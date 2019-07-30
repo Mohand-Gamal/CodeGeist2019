@@ -11,7 +11,7 @@ void setup() {
   WiFi.softAP("HandyTech", "Mo66778899");         //Set the name and password for the WIFI network
   WiFi.softAPConfig(IP, IP, mask);                //Configration for the Access point
   server.begin();                                 //Initialize the Server 
-  //Action = "F";                                 //For testing
+  Action = "F";                                 //For testing
 }
 
 void loop() {
